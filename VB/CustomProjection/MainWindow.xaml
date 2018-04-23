@@ -1,0 +1,20 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dxm="http://schemas.devexpress.com/winfx/2008/xaml/map" 
+        xmlns:local="clr-namespace:CustomProjection"
+        x:Class="CustomProjection.MainWindow"
+        Title="MainWindow" Height="600" Width="800">
+    <Grid>
+
+        <dxm:MapControl Name="mapControl">
+            <dxm:VectorLayer >
+                <dxm:VectorLayer.MapProjection>
+                    <local:HammerAitoffProjection/>
+                </dxm:VectorLayer.MapProjection>
+                <dxm:ShapefileDataAdapter FileUri="/Data/Countries.shp"/>
+            </dxm:VectorLayer>
+        </dxm:MapControl>
+
+    </Grid>
+</Window>
