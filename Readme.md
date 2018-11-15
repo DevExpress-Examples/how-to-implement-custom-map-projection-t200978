@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* **[HammerAitoffProjection.cs](./CS/CustomProjection/HammerAitoffProjection.cs) (VB: [HammerAitoffProjection.vb](./VB/CustomProjection/HammerAitoffProjection.vb))**
+* [MainWindow.xaml](./CS/CustomProjection/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/CustomProjection/MainWindow.xaml))
+<!-- default file list end -->
 # How to implement custom map projection
 
 
